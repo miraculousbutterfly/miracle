@@ -27,8 +27,7 @@ Final project for **Free Elec 1 Business Analytics** and **Event-Driven Programm
 - `logo-badge.png`, `logo.png`: logo files
 
 ## Run it
-Open the GitHub Pages link: https://solascomera94-ai.github.io/miracle/
-
+Open the GitHub Pages link:https://miraculousbutterfly.github.io/miracle/
 An Internet connection is needed to load PyScript.
 
 ## Group members
