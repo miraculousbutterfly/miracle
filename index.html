@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miracle Soap | Gentle, Natural Bar Soap</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A7%BC%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+</head>
+<body>
+<header class="top">
+  <a href="#home"><svg class="logo" style="height:46px;width:auto;display:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" role="img" aria-label="Miracle Soap logo">
+  <g transform="translate(6,8)">
+    <rect x="2" y="14" width="46" height="30" rx="9" fill="#2E7D5B" transform="rotate(-12 25 29)"/>
+    <rect x="9" y="21" width="32" height="6" rx="3" fill="#F4D35E" opacity=".9" transform="rotate(-12 25 29)"/>
+    <path d="M30 2c10 0 18 7 18 16-10 0-18-6-18-16z" fill="#7BC47F"/>
+    <circle cx="10" cy="8" r="3" fill="#BFE6F0"/><circle cx="18" cy="3" r="2" fill="#BFE6F0"/>
+  </g>
+  <text x="66" y="34" font-family="Georgia, serif" font-size="27" font-weight="700" fill="#1F4D3A">Miracle</text>
+  <text x="66" y="58" font-family="Arial, sans-serif" font-size="17" letter-spacing="5" fill="#2E7D5B">SOAP</text>
+</svg></a>
+  <nav><a href="#about">Why Miracle</a><a href="#shop">Shop</a><a href="#order">Order</a><a href="#analytics">Business Analytics</a></nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div>
+    <svg class="hero-logo" style="height:130px;width:auto;display:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Miracle Soap badge logo">
+  <defs>
+    <path id="arcTop" d="M 60 200 A 140 140 0 0 1 340 200"/>
+    <path id="arcBot" d="M 48 200 A 152 152 0 0 0 352 200"/>
+  </defs>
+  <circle cx="200" cy="200" r="192" fill="#1F4D3A"/>
+  <circle cx="200" cy="200" r="178" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="200" cy="200" r="118" fill="#FAF7EF"/>
+  <!-- aloe leaves -->
+  <path d="M200 262 C170 220 160 170 200 118 C240 170 230 220 200 262Z" fill="#7BC47F"/>
+  <path d="M200 262 C150 245 120 205 128 160 C168 178 192 214 200 262Z" fill="#2E7D5B"/>
+  <path d="M200 262 C250 245 280 205 272 160 C232 178 208 214 200 262Z" fill="#2E7D5B"/>
+  <!-- soap bar -->
+  <g transform="rotate(-10 200 252)">
+    <rect x="140" y="226" width="120" height="58" rx="18" fill="#F4D35E"/>
+    <rect x="152" y="236" width="96" height="10" rx="5" fill="#FFF3B0"/>
+    <text x="200" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#1F4D3A">MIRACLE</text>
+  </g>
+  <!-- bubbles -->
+  <circle cx="268" cy="214" r="12" fill="#BFE6F0" stroke="#fff" stroke-width="2"/>
+  <circle cx="288" cy="190" r="7" fill="#BFE6F0" stroke="#fff" stroke-width="2"/>
+  <circle cx="132" cy="206" r="9" fill="#BFE6F0" stroke="#fff" stroke-width="2"/>
+  <!-- curved text -->
+  <text font-family="Georgia, serif" font-size="34" font-weight="700" letter-spacing="6" fill="#FAF7EF"><textPath href="#arcTop" startOffset="50%" text-anchor="middle">MIRACLE SOAP</textPath></text>
+  <text font-family="Arial, sans-serif" font-size="19" letter-spacing="5" fill="#F4D35E"><textPath href="#arcBot" startOffset="50%" text-anchor="middle">GENTLE • NATURAL • HANDMADE</textPath></text>
+</svg>
+    <h1>Gentle on sensitive skin. Ready for breakouts.</h1>
+    <p>Handmade natural bar soap with aloe vera, lemon and tea tree. Made by students, for students, at only <b>₱30</b> per bar.</p>
+    <a class="btn" href="#shop">Explore our soaps</a>
+  </div>
+  <div class="video-box">
+    <video controls playsinline preload="metadata">
+      <source src="videos/promo.mp4" type="video/mp4">
+      Your browser cannot play this video.
+    </video>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Why Miracle Soap?</h2>
+  <p class="sub">From our survey of 31 students and young adults in Cebu City</p>
+  <div class="grid3">
+    <div class="card stat"><b>48.4%</b>have skin sensitive to soap or skincare products</div>
+    <div class="card stat"><b>32.3%</b>currently have pimples, acne or breakouts</div>
+    <div class="card stat"><b>77.4%</b>say ₱25–₱30 is an affordable price for a bar</div>
+  </div>
+</section>
+
+<section id="shop">
+  <h2>Our Soaps</h2>
+  <p class="sub">Every bar is ₱30. Click “Add to cart” to start your order.</p>
+  <div class="grid4">
+    <div class="card"><h3>Aloe Vera</h3><p>Soothing and moisturizing. The most preferred scent in our survey.</p><button class="add" data-scent="Aloe Vera">Add to cart</button></div>
+    <div class="card"><h3>Lemon</h3><p>Fresh and bright, made with lemon extract.</p><button class="add" data-scent="Lemon">Add to cart</button></div>
+    <div class="card"><h3>Unscented</h3><p>Simple and gentle for scent-sensitive skin.</p><button class="add" data-scent="Unscented">Add to cart</button></div>
+    <div class="card"><h3>Herbal / Tea Tree</h3><p>Herbal tea tree oil for an acne-care feel.</p><button class="add" data-scent="Herbal/Tea Tree">Add to cart</button></div>
+  </div>
+</section>
+
+<section id="order">
+  <h2>Place Your Order</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>Quick price estimator</h3>
+      <label for="scent">Scent</label>
+      <select id="scent"><option>Aloe Vera</option><option>Lemon</option><option>Unscented</option><option>Herbal/Tea Tree</option></select>
+      <label for="qty">Quantity (bars)</label>
+      <input id="qty" type="number" min="1" value="1">
+      <p class="big" id="estimate">Total: ₱30.00</p>
+      <button id="add-est" class="btn small">Add this to cart</button>
+    </div>
+    <div class="card">
+      <h3>Your cart</h3>
+      <ul id="cart-list"><li class="muted">Your cart is empty.</li></ul>
+      <p class="big" id="cart-total">Total: ₱0.00</p>
+      <form id="order-form">
+        <input id="cust-name" placeholder="Your name" required>
+        <input id="cust-contact" placeholder="Contact number or email" required>
+        <button type="submit" class="btn small">Place order</button>
+      </form>
+      <p id="order-msg" class="msg"></p>
+    </div>
+  </div>
+  <p class="note">Demo only: orders are not sent anywhere yet. Nothing is stored.</p>
+</section>
+
+<section id="analytics">
+  <h2>Business Analytics Corner</h2>
+  <p class="sub">Uses our feasibility study numbers: ₱30 price, ₱15 cost per bar, ₱3,100 fixed monthly costs.</p>
+  <div class="card narrow">
+    <label for="units">Bars sold per month</label>
+    <input id="units" type="number" min="0" value="300">
+    <p id="calc-out" class="big"></p>
+    <p id="calc-status" class="muted"></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p><b>Miracle Soap</b> | Free Elec 1 Business Analytics &amp; Event-Driven Programming | Cebu Eastern College</p>
+  <p>Manguilimotan, Lovely Chloe N. • Cuizon, Maria Sofia E. • Lawas, Rubbie Ann P. • Mina, Beveymae G. • Solasco, Mera N.</p>
+</footer>
+
+<script type="py" src="main.py"></script>
+</body>
+</html>
